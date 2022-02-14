@@ -120,3 +120,23 @@ For the someone who handle this task you should at least
 * Have STM32 or arduino to can bus hardware
 
 Materials Support: https://github.com/SamsonChau/Motor-Driver-Material
+
+#### R1 Pitch Control 
+
+In this year we have a new motor to control the pitch of the shooter with the new rmd motor
+
+material: https://github.com/SamsonChau/Motor-Driver-Material/tree/main/RMD_motor
+
+Model RMD L 9015 ![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/pic/RMD_L_9015.jpg)
+
+  
+
+
+
+
+
+A Driver of ROS and STM needed to be satisfied the following requirement:
+
+1. Can Control the Position, Velocity and Torque of the motor 
+2. Can monitor the real time Posirion, Velocity, Current and PID setting of the ,motor 
+3. Can change parameter and set zero at  runtime 

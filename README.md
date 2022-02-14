@@ -13,14 +13,17 @@ After this training you should understand the basics of:
 * Understand the command electronic compoenent we use.
 * Basic soldering 
 
-## Electronics 
+## Compoenents
+
+### Electronics 
 
 1. Electronic Rapid Prototyping & Basic Testing
 2. Passive compoents and system wiring
 3. Diodes && fuse
 4. yet to update
 
-## MCU programing (Mbed)
+### MCU programing (Mbed)
+
 1. BasiC 
 2. Extra_Advanced_C
 3. Basic IO
@@ -29,6 +32,92 @@ After this training you should understand the basics of:
 6. CAN
 7. PID
 
-# other Important
+### other Important
+
 1. Git Basic
 2. Git Gud
+
+## Task for This year 
+
+In Polyu Robocon the task of this year for junior will list as follow:
+
+#### 1. pneumatic module 
+
+Description:
+
+We will need a CAN BUS interface MCU to receive the command of the Master controller and control the SMC solinoid with Relay.
+
+The module should be able to satisfly the requirement:
+
+1. Can Receive the  CAN BUS command (id 0x50, 1M Bps) 
+2. Can control different combination in 16 channel relay (GPIOs)  with a single command 
+3. A manual debug button and a state Led to display the state of the module.
+4. the extact command can be customize your self
+
+Platform: Arduino IDE 
+
+Software material:
+
+​	CAN BUS Module library:https://github.com/autowp/arduino-mcp2515
+
+​	Arduino ide: https://www.arduino.cc/en/software
+
+​	simular tutorial: https://robojax.com/controlling-16-channel-relay-module-using-arduino
+
+Module :
+
+* CAN_BUS MCP2515 module
+
+* Arduino mega 2560
+
+* 16 channel Relay 
+
+  
+
+#### 2. c620 and m3508 motor driver tuning 
+
+c620-m3508 lib: https://github.com/PolyU-Robocon/C620-C610-controller-PID-code-with-Mbed-STM32-
+
+Description:
+
+We will needed to use this library to control the DJI c620 and m3508 actruators with m3508. Each motor module have to tune seperatly to achieve the maximum performance of the module and prevent damge of the robot mechism 
+
+Content 
+
+yet to update,
+
+
+
+#### 3. R1 VESC control and Tuning 
+
+As we needed to handle vesc for th fly wheel shooter this year, we needed to have some kind of control of vesc by the MCU or ROS system. 
+
+The Content of this task will be make the following approche work  with VESC:
+
+1. Test the ROS USB Driver and connect the VESC via ROS
+2. Control the VESC via CAN BUS from MCUs
+
+(optional)
+
+3. Control a USB to serial device and Connect the  
+
+For the someone who handle this task you should at least
+
+* unterstand and able to write a ros node
+
+* have VESC tools and able to config it 
+
+* know the basics of C++ 
+
+  or 
+
+* Know the MCU prgramming of Mbed and Arduino
+
+* Know the CAN-BUS communication protocal 
+
+* have VESC tools and able to config it 
+
+* Have STM32 or arduino to can bus hardware
+
+  
+

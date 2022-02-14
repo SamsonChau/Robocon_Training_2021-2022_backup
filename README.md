@@ -127,7 +127,7 @@ In this year we have a new motor to control the pitch of the shooter with the ne
 
 material: https://github.com/SamsonChau/Motor-Driver-Material/tree/main/RMD_motor
 
-Model RMD L 9015 ![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/pic/RMD_L_9015.jpg)
+Model RMD L 9015 ![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/RMD_L_9015.jpg)
 
   
 

@@ -44,7 +44,7 @@ In Polyu Robocon the task of this year for junior will list as follow:
 #### 1. pneumatic module 
 
 Description:
-
+![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/16_channel_relay.png)
 We will need a CAN BUS interface MCU to receive the command of the Master controller and control the SMC solinoid with Relay.
 
 The module should be able to satisfly the requirement:
@@ -92,6 +92,7 @@ yet to update,
 
 As we needed to handle vesc for th fly wheel shooter this year, we needed to have some kind of control of vesc by the MCU or ROS system. 
 
+![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/vesc_tool.png)
 The Content of this task will be make the following approche work  with VESC:
 
 1. Test the ROS USB Driver and connect the VESC via ROS

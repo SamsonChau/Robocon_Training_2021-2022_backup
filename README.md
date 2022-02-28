@@ -24,6 +24,8 @@ After this training you should understand the basics of:
 
 ### MCU programing (Mbed)
 
+0. Mbed environment 
+
 1. BasiC 
 2. Extra_Advanced_C
 3. Basic IO
@@ -32,12 +34,12 @@ After this training you should understand the basics of:
 6. CAN
 7. PID
 
-### other Important
+### Other Important
 
 1. Git Basic
 2. Git Gud
 
-## Task for This year 
+## Task for This year junior
 
 In Polyu Robocon the task of this year for junior will list as follow:
 

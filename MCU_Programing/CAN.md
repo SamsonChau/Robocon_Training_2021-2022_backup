@@ -44,6 +44,18 @@ Normally, we will only focusing on three parts: CAN ID, Control and Data.
 
 **Data**: Containing Actual data value, e.g. current for motor.
 
+## Hardware connection  of the can 
+To connect your MCU / PC to can bus you will need to connect to a can tranceiver to send the differencial signal on the bus, for STM32F446RE/ STM32F103RB it has the internal can rxtx controller to control the signal to the can server. But for arduino and esp32, the MCU didnot have can tx rx controller, therefore we use the MCP2515 SPI to canbus controller to connect the can tranceiver via SPI. The connection is listed as follow:
+
+![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/canbus-connect.png)
+
+There have some common ic otherthan TJA1050 can be used as can tranceiver:
+1. TJA1050 (very common, cheap, easy to find, we have a lot in lap)
+2. TJA1051/1052 (newwer version of TJA1050)
+3. MCP2551 (very common and cheap sometimes, the performance simular to tja1050)
+4. SN65HVD230 (very common and not so cheap sometimes, use in jetsons)
+5. ISO1050 (have power isolation, but need to be powered both from side)
+
 ### Mbed STM32 CAN config
 
 mbed refence: https://os.mbed.com/docs/mbed-os/v6.15/apis/other-driver-apis.html

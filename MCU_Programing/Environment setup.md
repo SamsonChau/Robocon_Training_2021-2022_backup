@@ -2,9 +2,9 @@
 
 ### Table of Content:
 
-1. [Before you start](#Before you start)
-2. [Euipment you need](#Euipment you need)
-3. [Development flow](#Development flow)
+1. [Before you start](#Before_you_start)
+2. [Euipment you need](#Euipment_you_need)
+3. [Development flow](#Development_flow)
 4. [Programing ](#Programing)
 5. [Debug](#Debug)
 

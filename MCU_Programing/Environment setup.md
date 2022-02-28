@@ -105,7 +105,7 @@ As in user aspect, the Mbed OS platform for debugging and more user friendly for
 
 ##  Euipment you need (Recommanded)
 
-1. PC with Mbed OS installed
+**1. PC with Mbed OS installed**
 
    **usage**
 
@@ -113,13 +113,13 @@ As in user aspect, the Mbed OS platform for debugging and more user friendly for
 
    * check and review the datasheet and circuit you need
 
-2. A mbed enabled STM development board or your stm based setup
+**2. A mbed enabled STM development board or your stm based setup**
 
    **usage**
 
    Execue the program and review the output 
 
-3. A Digitial probe 
+**3. A Digitial probe**
 
    **usage**
 
@@ -127,14 +127,14 @@ As in user aspect, the Mbed OS platform for debugging and more user friendly for
    * Check the voltage of the test point
    * Check any electroical properties you may want to varify 
 
-4. An oscilloscope (optional if your HW is not verify yet)
+**4. An oscilloscope (optional if your HW is not verify yet)**
 
    **usage**
 
    * Check the input and output signal of the certain bus/ output pin
    * Check the Transient of a certain signal
 
-5. A power supply (recommanded)
+**5. A power supply (recommanded)**
 
    **usage**
 

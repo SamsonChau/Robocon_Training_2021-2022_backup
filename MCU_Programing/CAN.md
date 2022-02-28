@@ -1,10 +1,4 @@
 # Advanced Tutorial 2 - Communication Protocol (CAN) and RoboMaster motor features
-Authors: Dennis, Amber
-Modified by: Chalex
-
-## Table of Content
-
-[TOC]
 
 ## Communication Protocol(CAN)
 ### What is CAN

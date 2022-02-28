@@ -2,10 +2,10 @@
 
 ### Table of Content:
 
-1. [Before you start](#Before_you_start)
-2. [Euipment you need](#Euipment_you_need)
-3. [Development flow](#Development_flow)
-4. [Programing ](#Programing)
+1. [Before_you_start](#Before_you_start)
+2. [Euipment_you_need](#Euipment_you_need)
+3. [Development_flow](#Development_flow)
+4. [Programing](#Programing)
 5. [Debug](#Debug)
 
 Mbed OS reference:
@@ -32,7 +32,7 @@ As in user aspect, the Mbed OS platform for debugging and more user friendly for
 
 1. Nucleo STM32F446RE
 
-   ![]()
+   ![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/nucleo_f446re.png)
 
    The most used MCU dev board in most recent Polyu Robocon. This board is good for development as it has all the interface we need as a MCU and the relitivly fast clock speed(180MHz) and relatively large flash storage (512KB).
 
@@ -60,7 +60,7 @@ As in user aspect, the Mbed OS platform for debugging and more user friendly for
 
 2. Arduinos
 
-   ![]()
+   ![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/different-types-of-Arduino-boards.jpeg)
 
    The most popular boards for beginer, this board or this type of board with different dimension size, pinout and MCUs you can choose any Arduinos depend on your need.
 
@@ -97,7 +97,7 @@ As in user aspect, the Mbed OS platform for debugging and more user friendly for
 
 3. ESP32s
 
-   ![]()
+   ![](https://github.com/SamsonChau/Robocon_Training_2021-2022_backup/blob/main/pic/ESP32-Pinout.jpg)
 
    The new module we added in use in this year as this module is easy to use and more easy for wireless connection and faster than arduino or some stm32s. For now jsut one project using it. 
 

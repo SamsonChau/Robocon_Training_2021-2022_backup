@@ -466,7 +466,5 @@ Disadvantage:
         - Code
         - or EVERYTHING
 
-:::    danger
-Please tell me (Amber) that you want to use which control method and say which group you are from and how many wheels you plan to use. So that I can finish the motor configuration for you.
 
 Reference: https://rm-static.djicdn.com/tem/17348/RoboMaster%20C620%20Brushless%20DC%20Motor%20Speed%20Controller%20V1.01.pdf
